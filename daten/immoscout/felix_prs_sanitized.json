@@ -1,0 +1,1652 @@
+[
+    {
+        "createdAt": "2025-08-05T12:01:20Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits-admin-frontend",
+            "nameWithOwner": "Scout24/is24-consumerbenefits-admin-frontend"
+        },
+        "state": "merged",
+        "title": "fix magenta timeline description",
+        "url": "https://github.com/Scout24/is24-consumerbenefits-admin-frontend/pull/50"
+    },
+    {
+        "createdAt": "2025-07-31T14:06:20Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-966: add magenta dashboard",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/849"
+    },
+    {
+        "createdAt": "2025-07-31T14:05:01Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits-admin-frontend",
+            "nameWithOwner": "Scout24/is24-consumerbenefits-admin-frontend"
+        },
+        "state": "merged",
+        "title": "HB-966: add magenta dashboard",
+        "url": "https://github.com/Scout24/is24-consumerbenefits-admin-frontend/pull/49"
+    },
+    {
+        "createdAt": "2025-07-30T09:30:42Z",
+        "repository":
+        {
+            "name": "is24-quick-cart-bonicheck-library",
+            "nameWithOwner": "Scout24/is24-quick-cart-bonicheck-library"
+        },
+        "state": "merged",
+        "title": "update version package.json",
+        "url": "https://github.com/Scout24/is24-quick-cart-bonicheck-library/pull/4"
+    },
+    {
+        "createdAt": "2025-07-30T08:22:40Z",
+        "repository":
+        {
+            "name": "is24-quick-cart-bonicheck-library",
+            "nameWithOwner": "Scout24/is24-quick-cart-bonicheck-library"
+        },
+        "state": "merged",
+        "title": "no validation for salutation field",
+        "url": "https://github.com/Scout24/is24-quick-cart-bonicheck-library/pull/3"
+    },
+    {
+        "createdAt": "2025-07-30T08:13:05Z",
+        "repository":
+        {
+            "name": "is24-quick-cart-frontend",
+            "nameWithOwner": "Scout24/is24-quick-cart-frontend"
+        },
+        "state": "closed",
+        "title": "Feat HB-946: no validation for salutation field",
+        "url": "https://github.com/Scout24/is24-quick-cart-frontend/pull/2827"
+    },
+    {
+        "createdAt": "2025-07-30T08:06:50Z",
+        "repository":
+        {
+            "name": "is24-quick-cart-frontend",
+            "nameWithOwner": "Scout24/is24-quick-cart-frontend"
+        },
+        "state": "closed",
+        "title": "Feat: HB-946 - make salutation optional",
+        "url": "https://github.com/Scout24/is24-quick-cart-frontend/pull/2826"
+    },
+    {
+        "createdAt": "2025-07-29T13:04:54Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-1016: remove description in original WP Upsell",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1504"
+    },
+    {
+        "createdAt": "2025-07-23T16:19:00Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-1016: Feat - new wp upsell iteration 2",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1499"
+    },
+    {
+        "createdAt": "2025-07-23T14:35:39Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "NO-TICKET: hotfix - lagerraum form feature switch",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1498"
+    },
+    {
+        "createdAt": "2025-07-23T08:03:16Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-1018: Bugfix - Fix overlapping ainavio chat button",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1496"
+    },
+    {
+        "createdAt": "2025-07-14T11:03:35Z",
+        "repository":
+        {
+            "name": "is24-bonicheck-frontend",
+            "nameWithOwner": "Scout24/is24-bonicheck-frontend"
+        },
+        "state": "open",
+        "title": "Feat 946: Remove Salutation from Schufa Form - 2",
+        "url": "https://github.com/Scout24/is24-bonicheck-frontend/pull/554"
+    },
+    {
+        "createdAt": "2025-07-02T15:17:41Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-965: add address change tracking",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/805"
+    },
+    {
+        "createdAt": "2025-07-02T15:15:07Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits-admin-frontend",
+            "nameWithOwner": "Scout24/is24-consumerbenefits-admin-frontend"
+        },
+        "state": "merged",
+        "title": "add address change tracking",
+        "url": "https://github.com/Scout24/is24-consumerbenefits-admin-frontend/pull/48"
+    },
+    {
+        "createdAt": "2025-06-27T08:17:17Z",
+        "repository":
+        {
+            "name": "is24-bonicheck-frontend",
+            "nameWithOwner": "Scout24/is24-bonicheck-frontend"
+        },
+        "state": "closed",
+        "title": "Feat 946: Remove Salutation from Schufa Form",
+        "url": "https://github.com/Scout24/is24-bonicheck-frontend/pull/549"
+    },
+    {
+        "createdAt": "2025-06-24T08:52:36Z",
+        "repository":
+        {
+            "name": "IS24-media-BoniCheck-Web",
+            "nameWithOwner": "Scout24/IS24-media-BoniCheck-Web"
+        },
+        "state": "merged",
+        "title": "HB-946: Remove Salutation",
+        "url": "https://github.com/Scout24/IS24-media-BoniCheck-Web/pull/2337"
+    },
+    {
+        "createdAt": "2025-06-23T09:08:03Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-871: Make Salutation Optional in Meinplus",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1464"
+    },
+    {
+        "createdAt": "2025-06-19T12:30:15Z",
+        "repository":
+        {
+            "name": "myscout-ui-dashboard",
+            "nameWithOwner": "Scout24/myscout-ui-dashboard"
+        },
+        "state": "merged",
+        "title": "NO-TICKET - no gender in WohnenPlus Card",
+        "url": "https://github.com/Scout24/myscout-ui-dashboard/pull/109"
+    },
+    {
+        "createdAt": "2025-06-19T11:51:39Z",
+        "repository":
+        {
+            "name": "is24-quick-cart-frontend",
+            "nameWithOwner": "Scout24/is24-quick-cart-frontend"
+        },
+        "state": "merged",
+        "title": "HB-958: rebrand WP to Wohnen+",
+        "url": "https://github.com/Scout24/is24-quick-cart-frontend/pull/2746"
+    },
+    {
+        "createdAt": "2025-06-18T10:56:09Z",
+        "repository":
+        {
+            "name": "myscout-ui-dashboard",
+            "nameWithOwner": "Scout24/myscout-ui-dashboard"
+        },
+        "state": "merged",
+        "title": "HB-880: Rebrand WP - remove plus indicator in Wohnen+ Upsell",
+        "url": "https://github.com/Scout24/myscout-ui-dashboard/pull/108"
+    },
+    {
+        "createdAt": "2025-06-18T09:27:52Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-871: add remove-salutation-feature",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/778"
+    },
+    {
+        "createdAt": "2025-06-17T06:05:15Z",
+        "repository":
+        {
+            "name": "myscout-ui-dashboard",
+            "nameWithOwner": "Scout24/myscout-ui-dashboard"
+        },
+        "state": "merged",
+        "title": "HB-880: Rebrand WP to Wohnen+",
+        "url": "https://github.com/Scout24/myscout-ui-dashboard/pull/107"
+    },
+    {
+        "createdAt": "2025-06-16T13:58:29Z",
+        "repository":
+        {
+            "name": "is24-quick-cart-frontend",
+            "nameWithOwner": "Scout24/is24-quick-cart-frontend"
+        },
+        "state": "closed",
+        "title": "HB-958: rebrand WP to Wohnen+",
+        "url": "https://github.com/Scout24/is24-quick-cart-frontend/pull/2740"
+    },
+    {
+        "createdAt": "2025-06-11T15:15:12Z",
+        "repository":
+        {
+            "name": "myscout-ui-dashboard-backend",
+            "nameWithOwner": "Scout24/myscout-ui-dashboard-backend"
+        },
+        "state": "closed",
+        "title": "NO-TICKET: up npm version",
+        "url": "https://github.com/Scout24/myscout-ui-dashboard-backend/pull/723"
+    },
+    {
+        "createdAt": "2025-06-11T13:24:14Z",
+        "repository":
+        {
+            "name": "myscout-ui-dashboard-backend",
+            "nameWithOwner": "Scout24/myscout-ui-dashboard-backend"
+        },
+        "state": "merged",
+        "title": "NO-TICKET: fix deps",
+        "url": "https://github.com/Scout24/myscout-ui-dashboard-backend/pull/722"
+    },
+    {
+        "createdAt": "2025-06-11T12:10:41Z",
+        "repository":
+        {
+            "name": "myscout-ui-dashboard-backend",
+            "nameWithOwner": "Scout24/myscout-ui-dashboard-backend"
+        },
+        "state": "merged",
+        "title": "NO-TICKET: fix dependency conflict",
+        "url": "https://github.com/Scout24/myscout-ui-dashboard-backend/pull/721"
+    },
+    {
+        "createdAt": "2025-06-10T11:16:46Z",
+        "repository":
+        {
+            "name": "myscout-ui-dashboard",
+            "nameWithOwner": "Scout24/myscout-ui-dashboard"
+        },
+        "state": "merged",
+        "title": "HB-880 - Rebrand Plus Products",
+        "url": "https://github.com/Scout24/myscout-ui-dashboard/pull/106"
+    },
+    {
+        "createdAt": "2025-06-10T11:12:39Z",
+        "repository":
+        {
+            "name": "myscout-ui-dashboard-backend",
+            "nameWithOwner": "Scout24/myscout-ui-dashboard-backend"
+        },
+        "state": "merged",
+        "title": "HB-880 - Add Rebranding Feature Flag",
+        "url": "https://github.com/Scout24/myscout-ui-dashboard-backend/pull/720"
+    },
+    {
+        "createdAt": "2025-06-04T13:37:14Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-790: remove success step from billcheck flow",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1452"
+    },
+    {
+        "createdAt": "2025-06-03T09:03:02Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-921: add transactional annotation",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/747"
+    },
+    {
+        "createdAt": "2025-06-03T07:27:49Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "closed",
+        "title": "Reset WP Offer: add temprorary debug logs",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/743"
+    },
+    {
+        "createdAt": "2025-05-28T09:59:54Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "bugfix: reset living offer when users buys MP",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/740"
+    },
+    {
+        "createdAt": "2025-05-26T12:57:02Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-829: Bugfix - welcome modals",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1437"
+    },
+    {
+        "createdAt": "2025-05-26T10:16:25Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-922: expose feature switches to client",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/738"
+    },
+    {
+        "createdAt": "2025-05-23T09:00:45Z",
+        "repository":
+        {
+            "name": "is24-property-hub-app",
+            "nameWithOwner": "Scout24/is24-property-hub-app"
+        },
+        "state": "merged",
+        "title": "NO-TICKET: remove iterable schufa banner",
+        "url": "https://github.com/Scout24/is24-property-hub-app/pull/2113"
+    },
+    {
+        "createdAt": "2025-05-23T07:39:50Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-817: Fix WP upsell plus icon positioning",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1433"
+    },
+    {
+        "createdAt": "2025-05-19T11:07:29Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-897: fix faq for mieterplus",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1428"
+    },
+    {
+        "createdAt": "2025-05-16T10:57:53Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "feat/HB-899 ainavio usage tracking",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/720"
+    },
+    {
+        "createdAt": "2025-05-14T09:43:33Z",
+        "repository":
+        {
+            "name": "is24-property-hub-app",
+            "nameWithOwner": "Scout24/is24-property-hub-app"
+        },
+        "state": "merged",
+        "title": "fix iterable log error",
+        "url": "https://github.com/Scout24/is24-property-hub-app/pull/2087"
+    },
+    {
+        "createdAt": "2025-05-12T10:10:27Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-900: add event listener for valid iframe license",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1409"
+    },
+    {
+        "createdAt": "2025-05-12T08:36:28Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-903: Fix Magenta TV Übersicht",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1407"
+    },
+    {
+        "createdAt": "2025-05-07T13:37:21Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-872: Make salutation optional in API calls",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/711"
+    },
+    {
+        "createdAt": "2025-05-07T09:31:30Z",
+        "repository":
+        {
+            "name": "is24-property-hub-app",
+            "nameWithOwner": "Scout24/is24-property-hub-app"
+        },
+        "state": "merged",
+        "title": "NO TICKET: fix iterable initialization error log",
+        "url": "https://github.com/Scout24/is24-property-hub-app/pull/2070"
+    },
+    {
+        "createdAt": "2025-04-30T13:59:30Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-898: add starred info message",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1396"
+    },
+    {
+        "createdAt": "2025-04-30T13:49:27Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-881: fix magenta tracking terms value",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1395"
+    },
+    {
+        "createdAt": "2025-04-28T14:10:10Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-892: Ainavio - Add Tracking",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1391"
+    },
+    {
+        "createdAt": "2025-04-28T09:51:06Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-881: Magenta TV - add tracking",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1390"
+    },
+    {
+        "createdAt": "2025-04-28T07:35:24Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-860: Bugfix weitere fragen url",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1388"
+    },
+    {
+        "createdAt": "2025-04-28T07:31:16Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-894: rollout magentatv",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1387"
+    },
+    {
+        "createdAt": "2025-04-23T14:40:23Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-878: rollout ainavio feature",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1375"
+    },
+    {
+        "createdAt": "2025-04-23T13:09:41Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-820: get magenta discount only for plus user",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/702"
+    },
+    {
+        "createdAt": "2025-04-16T14:24:21Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-787: cancel deposit 3 days in advance instead of 1",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/699"
+    },
+    {
+        "createdAt": "2025-04-16T07:53:34Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-820 - add magenta discount api",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/697"
+    },
+    {
+        "createdAt": "2025-04-09T07:46:24Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-787: cancel deposits that end tomorrow or are pending",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/694"
+    },
+    {
+        "createdAt": "2025-04-04T10:03:33Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "hotfix: lagerraum faq tab headline",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1362"
+    },
+    {
+        "createdAt": "2025-04-03T14:55:00Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-822: magenta tv ui fixes",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1361"
+    },
+    {
+        "createdAt": "2025-04-01T12:48:01Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-822: Add Magenta TV Modal",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1348"
+    },
+    {
+        "createdAt": "2025-03-31T11:16:22Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "HB-774: Add MagentaTv Benefit Tile",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1347"
+    },
+    {
+        "createdAt": "2025-03-25T13:23:56Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-856 : Add e2e tests for WP Upsell",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1340"
+    },
+    {
+        "createdAt": "2025-03-24T14:01:17Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "New PR Template",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1339"
+    },
+    {
+        "createdAt": "2025-03-24T13:52:10Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-828: cleanup e2e tests",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1338"
+    },
+    {
+        "createdAt": "2025-03-19T14:14:59Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-793: show Schufa instead of ISBA",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1336"
+    },
+    {
+        "createdAt": "2025-03-19T09:24:58Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "open",
+        "title": "Chore: Cleanup old articles and WP Upsell",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1334"
+    },
+    {
+        "createdAt": "2025-03-18T11:34:58Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-792: fix price in WP Upsell Modal",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1332"
+    },
+    {
+        "createdAt": "2025-03-18T11:21:04Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "show schufa instead of ISBA",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1330"
+    },
+    {
+        "createdAt": "2025-03-12T09:45:25Z",
+        "repository":
+        {
+            "name": "is24-quick-cart-frontend",
+            "nameWithOwner": "Scout24/is24-quick-cart-frontend"
+        },
+        "state": "merged",
+        "title": "HB-783: fix skeleton for desktop",
+        "url": "https://github.com/Scout24/is24-quick-cart-frontend/pull/2632"
+    },
+    {
+        "createdAt": "2025-03-06T11:44:32Z",
+        "repository":
+        {
+            "name": "is24-quick-cart-frontend",
+            "nameWithOwner": "Scout24/is24-quick-cart-frontend"
+        },
+        "state": "closed",
+        "title": "HB-775: rollout vertical experiment: fix skeleton for desktop",
+        "url": "https://github.com/Scout24/is24-quick-cart-frontend/pull/2620"
+    },
+    {
+        "createdAt": "2025-03-03T19:55:28Z",
+        "repository":
+        {
+            "name": "is24-rent-profile-frontend",
+            "nameWithOwner": "Scout24/is24-rent-profile-frontend"
+        },
+        "state": "merged",
+        "title": "HB-759: Mieter Upsell Experiment",
+        "url": "https://github.com/Scout24/is24-rent-profile-frontend/pull/1348"
+    },
+    {
+        "createdAt": "2025-03-03T10:35:30Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-780: edit email footer",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/684"
+    },
+    {
+        "createdAt": "2025-02-27T13:44:28Z",
+        "repository":
+        {
+            "name": "is24-property-hub-app",
+            "nameWithOwner": "Scout24/is24-property-hub-app"
+        },
+        "state": "closed",
+        "title": "remove feature flag for schufa banner",
+        "url": "https://github.com/Scout24/is24-property-hub-app/pull/1965"
+    },
+    {
+        "createdAt": "2025-02-27T08:07:43Z",
+        "repository":
+        {
+            "name": "is24-property-hub-app",
+            "nameWithOwner": "Scout24/is24-property-hub-app"
+        },
+        "state": "closed",
+        "title": "always show messge in desktop, only show on mobile if isGerman",
+        "url": "https://github.com/Scout24/is24-property-hub-app/pull/1961"
+    },
+    {
+        "createdAt": "2025-02-18T16:36:47Z",
+        "repository":
+        {
+            "name": "is24-property-hub-app",
+            "nameWithOwner": "Scout24/is24-property-hub-app"
+        },
+        "state": "merged",
+        "title": "HB-732 Add Schufa Embedded Message",
+        "url": "https://github.com/Scout24/is24-property-hub-app/pull/1945"
+    },
+    {
+        "createdAt": "2025-02-13T12:47:00Z",
+        "repository":
+        {
+            "name": "is24-property-hub-app",
+            "nameWithOwner": "Scout24/is24-property-hub-app"
+        },
+        "state": "closed",
+        "title": "HB-732 Add Schufa Embedded Message",
+        "url": "https://github.com/Scout24/is24-property-hub-app/pull/1932"
+    },
+    {
+        "createdAt": "2025-02-10T15:11:16Z",
+        "repository":
+        {
+            "name": "is24-property-hub-api-definitions",
+            "nameWithOwner": "Scout24/is24-property-hub-api-definitions"
+        },
+        "state": "closed",
+        "title": "HB-732: add iterable endpoint",
+        "url": "https://github.com/Scout24/is24-property-hub-api-definitions/pull/157"
+    },
+    {
+        "createdAt": "2025-02-10T13:42:09Z",
+        "repository":
+        {
+            "name": "is24-property-hub-service",
+            "nameWithOwner": "Scout24/is24-property-hub-service"
+        },
+        "state": "closed",
+        "title": "HB-745: create auth endpoint for iterable",
+        "url": "https://github.com/Scout24/is24-property-hub-service/pull/1017"
+    },
+    {
+        "createdAt": "2025-01-29T15:39:28Z",
+        "repository":
+        {
+            "name": "is24-rent-profile",
+            "nameWithOwner": "Scout24/is24-rent-profile"
+        },
+        "state": "closed",
+        "title": "HB-734: rent upsell - add proxy endpoint",
+        "url": "https://github.com/Scout24/is24-rent-profile/pull/1288"
+    },
+    {
+        "createdAt": "2025-01-29T15:35:00Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "closed",
+        "title": "HB-733: rent upsell M2M endpoint",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/678"
+    },
+    {
+        "createdAt": "2025-01-29T13:05:49Z",
+        "repository":
+        {
+            "name": "is24-rent-profile-frontend",
+            "nameWithOwner": "Scout24/is24-rent-profile-frontend"
+        },
+        "state": "merged",
+        "title": "HB-726: [PR1] - setup MP Upsell experiment",
+        "url": "https://github.com/Scout24/is24-rent-profile-frontend/pull/1312"
+    },
+    {
+        "createdAt": "2025-01-15T11:18:38Z",
+        "repository":
+        {
+            "name": "is24-rent-profile-frontend",
+            "nameWithOwner": "Scout24/is24-rent-profile-frontend"
+        },
+        "state": "merged",
+        "title": "HB-704 - Roll out WP upsell experiment",
+        "url": "https://github.com/Scout24/is24-rent-profile-frontend/pull/1296"
+    },
+    {
+        "createdAt": "2025-01-13T11:23:55Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "remove BASE_URL for sandbox",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1326"
+    },
+    {
+        "createdAt": "2025-01-13T10:11:34Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "add jest setup config",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1325"
+    },
+    {
+        "createdAt": "2025-01-09T10:44:50Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "chore sandbos - fix test",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1323"
+    },
+    {
+        "createdAt": "2025-01-06T09:49:43Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "HB-678: remove rechtschutz banner",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1321"
+    },
+    {
+        "createdAt": "2025-01-06T09:41:24Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "Hb 678: remove rechtsschutz banner",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1320"
+    },
+    {
+        "createdAt": "2025-01-06T09:30:07Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "HB-703: adjust modal copy",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1319"
+    },
+    {
+        "createdAt": "2024-12-11T13:32:48Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-694 - PR2 : remove dynamic log endpoints + code",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/640"
+    },
+    {
+        "createdAt": "2024-12-11T13:22:31Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-694 - PR1 : remove endpoints: deposit + benefits",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/639"
+    },
+    {
+        "createdAt": "2024-12-09T14:03:01Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-676 - hide dekra services",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1316"
+    },
+    {
+        "createdAt": "2024-12-02T11:40:20Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-660: refine cancellation revocation logic",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/632"
+    },
+    {
+        "createdAt": "2024-11-27T14:30:44Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits-admin-frontend",
+            "nameWithOwner": "Scout24/is24-consumerbenefits-admin-frontend"
+        },
+        "state": "merged",
+        "title": "HB-670 add feature switch page (sfmc)",
+        "url": "https://github.com/Scout24/is24-consumerbenefits-admin-frontend/pull/39"
+    },
+    {
+        "createdAt": "2024-11-25T14:31:25Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits-admin-frontend",
+            "nameWithOwner": "Scout24/is24-consumerbenefits-admin-frontend"
+        },
+        "state": "merged",
+        "title": "fix generate token undefined",
+        "url": "https://github.com/Scout24/is24-consumerbenefits-admin-frontend/pull/37"
+    },
+    {
+        "createdAt": "2024-11-20T15:36:24Z",
+        "repository":
+        {
+            "name": "is24-rent-profile-frontend",
+            "nameWithOwner": "Scout24/is24-rent-profile-frontend"
+        },
+        "state": "closed",
+        "title": "HB-622: add WohnenPlus Upsell Modal new",
+        "url": "https://github.com/Scout24/is24-rent-profile-frontend/pull/1204"
+    },
+    {
+        "createdAt": "2024-11-13T15:23:17Z",
+        "repository":
+        {
+            "name": "is24-rent-profile",
+            "nameWithOwner": "Scout24/is24-rent-profile"
+        },
+        "state": "merged",
+        "title": "HB-624 add living offer endpoint",
+        "url": "https://github.com/Scout24/is24-rent-profile/pull/1104"
+    },
+    {
+        "createdAt": "2024-11-06T11:44:41Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-599: axa cleanup new",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1311"
+    },
+    {
+        "createdAt": "2024-11-06T11:34:55Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "HB-599: axa cleanup",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1310"
+    },
+    {
+        "createdAt": "2024-11-04T15:17:15Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "fix modal copy",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1309"
+    },
+    {
+        "createdAt": "2024-10-31T12:35:54Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-539: show legacy billcheck only if status is DONE",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1307"
+    },
+    {
+        "createdAt": "2024-10-23T12:42:04Z",
+        "repository":
+        {
+            "name": "is24-bonicheck-frontend",
+            "nameWithOwner": "Scout24/is24-bonicheck-frontend"
+        },
+        "state": "merged",
+        "title": "hotfix: HB-591 - agb and status message",
+        "url": "https://github.com/Scout24/is24-bonicheck-frontend/pull/402"
+    },
+    {
+        "createdAt": "2024-10-21T13:22:57Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-573 Cleanup WP Upsell",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1291"
+    },
+    {
+        "createdAt": "2024-10-14T19:00:53Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "HB-539: deprecate mineko",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1281"
+    },
+    {
+        "createdAt": "2024-10-02T12:32:20Z",
+        "repository":
+        {
+            "name": "is24-bonicheck-frontend",
+            "nameWithOwner": "Scout24/is24-bonicheck-frontend"
+        },
+        "state": "closed",
+        "title": "disable living upsell modal",
+        "url": "https://github.com/Scout24/is24-bonicheck-frontend/pull/384"
+    },
+    {
+        "createdAt": "2024-09-30T13:55:03Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "new modal copy changes",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1273"
+    },
+    {
+        "createdAt": "2024-09-27T09:43:23Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "fix redirect to quick cart",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1271"
+    },
+    {
+        "createdAt": "2024-09-20T08:39:15Z",
+        "repository":
+        {
+            "name": "is24-quick-cart-frontend",
+            "nameWithOwner": "Scout24/is24-quick-cart-frontend"
+        },
+        "state": "merged",
+        "title": "remove Mieterengel Bulletpoint",
+        "url": "https://github.com/Scout24/is24-quick-cart-frontend/pull/2242"
+    },
+    {
+        "createdAt": "2024-09-19T14:26:11Z",
+        "repository":
+        {
+            "name": "is24-bonicheck-frontend",
+            "nameWithOwner": "Scout24/is24-bonicheck-frontend"
+        },
+        "state": "merged",
+        "title": "hotfix: remove 6th bullet point form living upsell modal",
+        "url": "https://github.com/Scout24/is24-bonicheck-frontend/pull/379"
+    },
+    {
+        "createdAt": "2024-09-19T10:56:08Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "reduce-log-noise",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/587"
+    },
+    {
+        "createdAt": "2024-08-26T11:57:23Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-494 ARAG implementation",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1246"
+    },
+    {
+        "createdAt": "2024-08-21T14:31:04Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "HB-514 - add arag email service",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/579"
+    },
+    {
+        "createdAt": "2024-08-20T11:14:46Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "remove Tenant Protection Report Service cron + code",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/578"
+    },
+    {
+        "createdAt": "2024-08-06T10:09:43Z",
+        "repository":
+        {
+            "name": "is24-rent-profile-frontend",
+            "nameWithOwner": "Scout24/is24-rent-profile-frontend"
+        },
+        "state": "merged",
+        "title": "fix: adblocker prevents verification modal from opening",
+        "url": "https://github.com/Scout24/is24-rent-profile-frontend/pull/1064"
+    },
+    {
+        "createdAt": "2024-07-30T12:45:22Z",
+        "repository":
+        {
+            "name": "is24-rent-profile-frontend",
+            "nameWithOwner": "Scout24/is24-rent-profile-frontend"
+        },
+        "state": "merged",
+        "title": "No custom css",
+        "url": "https://github.com/Scout24/is24-rent-profile-frontend/pull/1055"
+    },
+    {
+        "createdAt": "2024-07-29T11:40:32Z",
+        "repository":
+        {
+            "name": "is24-rent-profile-frontend",
+            "nameWithOwner": "Scout24/is24-rent-profile-frontend"
+        },
+        "state": "closed",
+        "title": "seclude components in profile owner",
+        "url": "https://github.com/Scout24/is24-rent-profile-frontend/pull/1053"
+    },
+    {
+        "createdAt": "2024-07-17T08:05:48Z",
+        "repository":
+        {
+            "name": "is24-rent-profile-frontend",
+            "nameWithOwner": "Scout24/is24-rent-profile-frontend"
+        },
+        "state": "merged",
+        "title": "Verification Badge",
+        "url": "https://github.com/Scout24/is24-rent-profile-frontend/pull/1041"
+    },
+    {
+        "createdAt": "2024-07-08T13:38:21Z",
+        "repository":
+        {
+            "name": "cloud-custodian-lambda",
+            "nameWithOwner": "Scout24/cloud-custodian-lambda"
+        },
+        "state": "merged",
+        "title": "Update allowlist.yaml ressources expiration dates HB",
+        "url": "https://github.com/Scout24/cloud-custodian-lambda/pull/370"
+    },
+    {
+        "createdAt": "2024-07-01T10:21:05Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "Solvency modal new url changes (#542)",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/551"
+    },
+    {
+        "createdAt": "2024-06-25T07:31:37Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "Monetize SCHUFA new",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/539"
+    },
+    {
+        "createdAt": "2024-06-11T07:43:43Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "Schufa Monitization",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1189"
+    },
+    {
+        "createdAt": "2024-06-04T07:37:57Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "closed",
+        "title": "Monetize SCHUFA in myPlus area tile",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/477"
+    },
+    {
+        "createdAt": "2024-06-03T13:17:41Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "closed",
+        "title": "remove logs",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/476"
+    },
+    {
+        "createdAt": "2024-06-03T13:11:18Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "closed",
+        "title": "Remove logs",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/475"
+    },
+    {
+        "createdAt": "2024-05-27T11:38:29Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "closed",
+        "title": "remove old email-client",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/468"
+    },
+    {
+        "createdAt": "2024-05-27T09:52:39Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "send billcheck events to SFMC",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/467"
+    },
+    {
+        "createdAt": "2024-05-22T13:45:44Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "initial commit",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1151"
+    },
+    {
+        "createdAt": "2024-05-22T08:59:29Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "fix back button alignment",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1150"
+    },
+    {
+        "createdAt": "2024-05-06T14:26:54Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "add benefit balance details page",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1136"
+    },
+    {
+        "createdAt": "2024-05-06T14:24:28Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "update product status endpoint",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1135"
+    },
+    {
+        "createdAt": "2024-05-06T09:17:13Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "Api mock for billcheck v3",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1133"
+    },
+    {
+        "createdAt": "2024-05-03T09:51:50Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "add react hooks for Billcheck",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1132"
+    },
+    {
+        "createdAt": "2024-04-26T10:39:15Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "Datadog Rum remove feature flag",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1122"
+    },
+    {
+        "createdAt": "2024-04-25T08:43:05Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "DD-sample-100",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1117"
+    },
+    {
+        "createdAt": "2024-04-17T07:56:41Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "datadog RUM monitoring",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1113"
+    },
+    {
+        "createdAt": "2024-04-12T14:19:10Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "Migrate to new email client",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/441"
+    },
+    {
+        "createdAt": "2024-04-04T12:00:23Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-294",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1095"
+    },
+    {
+        "createdAt": "2024-04-04T09:34:03Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "merged",
+        "title": "cleanup-endpoint HB-203",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/439"
+    },
+    {
+        "createdAt": "2024-03-25T15:26:58Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "new-api-endpoints",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1085"
+    },
+    {
+        "createdAt": "2024-03-13T08:16:50Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "closed",
+        "title": "Hb 221 cancel membership info",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/413"
+    },
+    {
+        "createdAt": "2024-02-28T09:57:11Z",
+        "repository":
+        {
+            "name": "is24-consumerbenefits",
+            "nameWithOwner": "Scout24/is24-consumerbenefits"
+        },
+        "state": "closed",
+        "title": "test logo",
+        "url": "https://github.com/Scout24/is24-consumerbenefits/pull/397"
+    },
+    {
+        "createdAt": "2024-02-21T14:16:43Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "Mineko bug fix",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1037"
+    },
+    {
+        "createdAt": "2024-02-19T13:55:15Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": " content updates",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1036"
+    },
+    {
+        "createdAt": "2024-02-06T16:35:51Z",
+        "repository":
+        {
+            "name": "is24-shortlist-web",
+            "nameWithOwner": "Scout24/is24-shortlist-web"
+        },
+        "state": "closed",
+        "title": "Hb 167 wp upsell banner experiment",
+        "url": "https://github.com/Scout24/is24-shortlist-web/pull/594"
+    },
+    {
+        "createdAt": "2024-02-01T14:06:44Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "HB-143 add FAQ for MP",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1021"
+    },
+    {
+        "createdAt": "2024-01-29T14:58:35Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "Hb 148 new header and footer",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/1017"
+    },
+    {
+        "createdAt": "2023-12-18T10:09:08Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-118 | Sticky modal footer",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/986"
+    },
+    {
+        "createdAt": "2023-12-15T13:14:43Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "feature: HB-118 made modal button area sticky",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/984"
+    },
+    {
+        "createdAt": "2023-12-12T08:49:01Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "nebenkosten change link to MP LP",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/974"
+    },
+    {
+        "createdAt": "2023-12-12T08:43:21Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "for only MP and only KP users lagerraum overview description fixed",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/973"
+    },
+    {
+        "createdAt": "2023-12-05T12:35:37Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "for only MP and only KP users lagerraum overview description fixed",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/960"
+    },
+    {
+        "createdAt": "2023-12-05T12:32:34Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "HB-77 fix lagerraum overview description",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/959"
+    },
+    {
+        "createdAt": "2023-12-04T09:28:51Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "closed",
+        "title": "nebenkosten change link to MP LP",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/954"
+    },
+    {
+        "createdAt": "2023-11-30T13:51:31Z",
+        "repository":
+        {
+            "name": "is24-mein-plus-benefits-frontend",
+            "nameWithOwner": "Scout24/is24-mein-plus-benefits-frontend"
+        },
+        "state": "merged",
+        "title": "HB-57 change copy from \"MP\" to \"WP\" in storage + key service",
+        "url": "https://github.com/Scout24/is24-mein-plus-benefits-frontend/pull/945"
+    }
+]
