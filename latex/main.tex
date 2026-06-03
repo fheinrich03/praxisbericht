@@ -1,0 +1,86 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[backend=bibtex, style=verbose, bibliography=totoc]{biblatex}
+\usepackage{parskip}
+\usepackage[splitrule, hang, flushmargin]{footmisc}
+
+
+%% Einstellungen und Anpassungen
+\input{settings/settings}  		% Import der Pakete und Stil des Dokuments
+\input{settings/adjustments} 	% Weitere Pakete und Anpassungen (Sprache, Quellenverwaltung, etc.)
+\input{settings/titlepage}		% Layout der Titelseite
+
+
+% Abstand zwischen den Fußnoten verringern
+\setlength{\footnotesep}{8pt}
+
+%commands
+\newcommand{\vglfootcite}[2][]{\footnote{Vgl. \cite[#1]{#2}}}
+
+\title{Titel der Arbeit}
+\author{Vorname Nachname}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\section{Einleitung}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat\footcite[1]{lorembook}.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\vglfootcite[42]{loremsource}.
+
+\pagebreak
+
+\section{Grundlagen}
+\subsection{Kontext}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+
+Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo\vglfootcite[10]{lorembook}.
+
+\subsection{Anwendungsfelder}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit:
+\begin{itemize}
+    \item Punkt eins: Lorem ipsum dolor sit amet
+    \item Punkt zwei: Consectetur adipiscing elit
+    \item Punkt drei: Sed do eiusmod tempor incididunt
+    \item Punkt vier: Ut labore et dolore magna aliqua
+\end{itemize}
+
+\pagebreak
+
+\subsection{Prognose}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur\vglfootcite[137]{loremsource}.
+
+\pagebreak
+
+\subsection{Ethik und Recht}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas\footcite[25]{lorembook}.
+
+Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra\vglfootcite[7]{loremsource}.
+
+\pagebreak
+
+\subsection{Fazit}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+
+\pagebreak
+
+\printbibliography[title={Literaturverzeichnis}]
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+
+\end{document}
