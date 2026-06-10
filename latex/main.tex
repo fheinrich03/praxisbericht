@@ -14,6 +14,10 @@
 \setstretch{1.15}
 \usepackage[stretch=10]{microtype}
 
+%% New page before every top-level section
+\let\oldsection\section
+\renewcommand{\section}{\clearpage\oldsection}
+
 %% Mathematics
 \usepackage{amsmath, amssymb}
 \usepackage{ifthen}
@@ -28,6 +32,7 @@
 \usepackage{multirow}
 \usepackage{longtable}
 \usepackage{booktabs}
+\usepackage{float}
 
 %% Quotations
 \usepackage{csquotes}
@@ -98,18 +103,18 @@ associated backend, as well as an internal admin panel.
 
 \subsection{Repositories}
 
-\begin{table}[h]
+\begin{table}[H]
   \centering
   \begin{tabularx}{\textwidth}{lX}
     \toprule
     \textbf{Repository} & \textbf{Description} \\
     \midrule
     \texttt{is24-mein-plus-benefits-frontend}      & React web app for the MeinPlus area (\texttt{/meinkonto/meinplus/}) \\
-    \texttt{is24-consumerbenefits}                 & Java Spring Boot backend -- holds data, feature switches, and APIs for the MeinPlus area \\
+    \texttt{is24-consumerbenefits}                 & Java Spring Boot backend -- holds data, feature switches, services and APIs for the MeinPlus area \\
     \texttt{is24-consumerbenefits-admin-frontend}  & Internal admin panel for managing feature switches and KPIs \\
     \texttt{is24-rent-profile-frontend}            & Frontend for Profile \& Documents (identity verification, solvency) \\
     \texttt{myscout-ui-dashboard}                  & Central user dashboard with MeinPlus entry tile \\
-    \texttt{is24-quick-cart-frontend}              & Checkout frontend for subscription purchases \\
+    \texttt{is24-quick-cart-frontend}              & Frontend for checkout and subscription purchases \\
     \bottomrule
   \end{tabularx}
   \caption{Relevant repositories in the MeinPlus context}
@@ -117,7 +122,7 @@ associated backend, as well as an internal admin panel.
 
 \subsection{Tech Stack and Tools}
 
-\begin{table}[h]
+\begin{table}[H]
   \centering
   \begin{tabularx}{\textwidth}{lX}
     \toprule
