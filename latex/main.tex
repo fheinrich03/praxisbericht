@@ -1,31 +1,46 @@
 \documentclass[a4paper, 12pt]{article}
+
+%% Encoding & Fonts
 \usepackage[utf8]{inputenc}
-\usepackage[ngerman]{babel}
-\usepackage{csquotes}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage[backend=bibtex, style=verbose, bibliography=totoc]{biblatex}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+%% Page margins
+\usepackage[a4paper, left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+%% Spacing & Typography
 \usepackage{parskip}
-\usepackage[splitrule, hang, flushmargin]{footmisc}
+\usepackage{setspace}
+\setstretch{1.15}
+\usepackage[stretch=10]{microtype}
 
+%% Mathematics
+\usepackage{amsmath, amssymb}
+\usepackage{ifthen}
 
-%% Einstellungen und Anpassungen
-\input{settings/settings}  		% Import der Pakete und Stil des Dokuments
-\input{settings/adjustments} 	% Weitere Pakete und Anpassungen (Sprache, Quellenverwaltung, etc.)
-\input{settings/titlepage}		% Layout der Titelseite
+%% Graphics & Colours
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{graphicx}
 
+%% Tables
+\usepackage{array, tabularx}
+\setlength\extrarowheight{2pt}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{booktabs}
 
-% Abstand zwischen den Fußnoten verringern
-\setlength{\footnotesep}{8pt}
+%% Quotations
+\usepackage{csquotes}
 
-%commands
-\newcommand{\vglfootcite}[2][]{\footnote{Vgl. \cite[#1]{#2}}}
+%% Links
+\usepackage[hidelinks, english, hypertexnames=false]{hyperref}
 
-\title{Titel der Arbeit}
-\author{Vorname Nachname}
-\date{\today}
+%% HTW settings (language, bibliography, colours)
+\input{settings/adjustments}
+
+%% Title page (metadata + layout)
+\input{settings/titlepage}
+
 
 \begin{document}
 
@@ -35,52 +50,521 @@
 \tableofcontents
 \newpage
 
-\section{Einleitung}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat\footcite[1]{lorembook}.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\vglfootcite[42]{loremsource}.
+%% ============================================================
+\section{Period and Place of Internship}
+%% ============================================================
 
-\pagebreak
+\subsection{Company}
 
-\section{Grundlagen}
-\subsection{Kontext}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+ImmoScout24 is Germany's largest online real estate portal and part of Scout24~SE,
+a publicly listed digital company in the DAX. The platform's core product is a real
+estate search for tenants, buyers, landlords, and agents, with over 20~million users
+per month. Beyond the classic property search, ImmoScout24 operates a growing
+ecosystem spanning the entire real estate lifecycle: from credit checks to mortgage
+brokering and moving services. Strategically, Scout24 relies heavily on modern
+technologies such as data analytics, A/B testing, and artificial intelligence to
+personalise user experiences and optimise conversion rates. The company's headquarters
+are in Munich; however, the majority of product development takes place at the Berlin
+office, where the company employs around 1,100~staff from over 60~nations.
 
-Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo\vglfootcite[10]{lorembook}.
+\subsection{Role and Team}
 
-\subsection{Anwendungsfelder}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit:
-\begin{itemize}
-    \item Punkt eins: Lorem ipsum dolor sit amet
-    \item Punkt zwei: Consectetur adipiscing elit
-    \item Punkt drei: Sed do eiusmod tempor incididunt
-    \item Punkt vier: Ut labore et dolore magna aliqua
-\end{itemize}
+I worked as a working student in full-stack development and was a member of the
+\textbf{Honey Badgers} team, part of the so-called \emph{Builders Organisation} within
+ImmoScout24. The team owns the \textbf{MeinPlus product area}
+(\texttt{/meinkonto/meinplus/}), a portal where users can manage their consumer
+subscriptions and the included benefits. ImmoScout24 offers three such subscriptions:
+\textbf{MieterPlus} (for active flat-hunters, with increased application visibility,
+a SCHUFA credit check, and additional services), \textbf{WohnenPlus} (for users in
+an existing tenancy with a similar set of benefits), and \textbf{KäuferPlus} (for
+prospective buyers, with market data and property valuations). My working hours were
+capped at 20~hours per week during term time and up to 40~hours during semester
+breaks.
 
-\pagebreak
 
-\subsection{Prognose}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+%% ============================================================
+\section{Responsibilities and Technology Overview}
+%% ============================================================
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur\vglfootcite[137]{loremsource}.
+\subsection{Product Context: MeinPlus}
 
-\pagebreak
+The MeinPlus area is the central portal where users can view their active subscription
+and access the included services. Each subscription is displayed as a separate tab;
+the individual benefits (e.g.\ SCHUFA report, emergency locksmith service) appear as
+clickable tiles. Clicking a tile opens a modal with further information and
+user-relevant actions. I worked on both the user interface of this portal and the
+associated backend, as well as an internal admin panel.
 
-\subsection{Ethik und Recht}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas\footcite[25]{lorembook}.
+\subsection{Repositories}
 
-Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra\vglfootcite[7]{loremsource}.
+\begin{table}[h]
+  \centering
+  \begin{tabularx}{\textwidth}{lX}
+    \toprule
+    \textbf{Repository} & \textbf{Description} \\
+    \midrule
+    \texttt{is24-mein-plus-benefits-frontend}      & React web app for the MeinPlus area (\texttt{/meinkonto/meinplus/}) \\
+    \texttt{is24-consumerbenefits}                 & Java Spring Boot backend -- holds data, feature switches, and APIs for the MeinPlus area \\
+    \texttt{is24-consumerbenefits-admin-frontend}  & Internal admin panel for managing feature switches and KPIs \\
+    \texttt{is24-rent-profile-frontend}            & Frontend for Profile \& Documents (identity verification, solvency) \\
+    \texttt{myscout-ui-dashboard}                  & Central user dashboard with MeinPlus entry tile \\
+    \texttt{is24-quick-cart-frontend}              & Checkout frontend for subscription purchases \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Relevant repositories in the MeinPlus context}
+\end{table}
 
-\pagebreak
+\subsection{Tech Stack and Tools}
 
-\subsection{Fazit}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+\begin{table}[h]
+  \centering
+  \begin{tabularx}{\textwidth}{lX}
+    \toprule
+    \textbf{Area} & \textbf{Technology} \\
+    \midrule
+    Frontend             & React, TypeScript, i18n, TanStack Query \\
+    Backend              & Java, Spring Boot, OpenAPI\,/\,Swagger \\
+    Testing              & Playwright (E2E), Unit Tests (Jest) \\
+    CI/CD                & Jenkins \\
+    A/B Testing          & Optimizely \\
+    Marketing Automation & Iterable (Embedded Messages) \\
+    Design System        & Storybook, Figma, shadcn/ui \\
+    Monitoring           & Datadog RUM \\
+    Project Management   & Jira, Confluence \\
+    Communication        & Slack, Zoom, Outlook \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Tech stack used}
+\end{table}
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
 
-\pagebreak
+%% ============================================================
+\section{Tasks and Activities}
+%% ============================================================
 
-\printbibliography[title={Literaturverzeichnis}]
-\addcontentsline{toc}{section}{Literaturverzeichnis}
+\subsection{Onboarding and Initial Feature Work}
+
+\subsubsection*{Nature and Scope}
+
+My first weeks at ImmoScout24 were defined by onboarding into a very large, organically
+grown codebase. The team operated according to the agile Scrum methodology with
+two-week sprints, and I was gradually introduced to the development workflow: from
+ticket management in Jira to local development and the deployment process via Jenkins
+into a sandbox environment and ultimately into production. This onboarding and initial
+feature phase covered approximately the first three months of the internship
+(November 2023 to February 2024).
+
+My first independent tickets after onboarding consisted of copy fixes and bug fixes in
+the WohnenPlus area. Specifically, users who exclusively held a WohnenPlus subscription
+were being shown incorrect text and links across various modals and tiles -- for
+example, the label \enquote{Included in MieterPlus} despite having a WohnenPlus
+subscription, or a link to the MieterPlus landing page instead of the WohnenPlus page.
+The initial tasks also included UI improvements: the footer area containing the
+call-to-action button in the benefit modals was not sticky -- on smaller screens, the
+CTA was only visible after scrolling, which had a negative impact on conversion.
+Another ticket addressed the behaviour of the browser back button when closing modals.
+
+\subsubsection*{Technical Implementation}
+
+The MeinPlus frontend uses a centralised i18n (internationalisation) system to manage
+all displayed copy. Translations are stored in separate TypeScript files
+(\texttt{de.ts}, \texttt{en.ts}) and injected into the respective components via a
+custom hook using a content ID. For the copy fixes, it was therefore sufficient to
+update the incorrect text in the translation file and display the correct variant based
+on the user's subscription.
+
+Making the footer sticky required only straightforward CSS adjustments. The browser
+history issue, however, called for a solid understanding of the Browser History API:
+when a modal is opened, a new history entry must be pushed so that pressing the back
+button closes the modal rather than navigating to the previous page -- a behaviour
+users expect from native apps.
+
+\subsubsection*{Key Takeaways}
+
+These initial tasks taught me above all how to navigate a large, unfamiliar codebase:
+reading the folder structure, searching for component names, using global regex searches,
+and understanding the relationships between components. I also got to grips with the
+team's complete CI/CD flow and came to appreciate how component-driven architectures
+make it possible to apply changes in a single place without touching many files.
+
+\subsection{A/B Testing with Optimizely}
+
+\subsubsection*{Nature and Scope}
+
+A/B testing was a recurring theme throughout my entire time at ImmoScout24. The team
+used \textbf{Optimizely}, a dedicated platform for feature management and controlled
+user experiments, to plan and run experiments. I implemented several experiments,
+including a placement test for a WohnenPlus upsell element in the Merkzettel (the
+user's property watchlist) -- a two-week effort in January/February 2024 -- as well
+as a series of WohnenPlus upsell modal experiments across multiple iterations running
+from September 2024 through July 2025. Individual experiment implementations typically
+took one to two sprints; the overall lifecycle including data collection, evaluation,
+and cleanup extended over several months per experiment.
+
+\subsubsection*{Technical Implementation}
+
+Each experiment followed a well-defined process: the product and data team defines the
+hypothesis and creates the experiment in Optimizely, specifying multiple variants
+(e.g.\ Variant~A: no upsell banner, Variant~B: banner at position~X). The engineer
+adds the experiment ID and variant IDs to the frontend project and retrieves the
+currently active variant for the logged-in user via a custom hook. Optimizely handles
+the traffic split and ensures that a given user consistently sees the same variant. The
+component then renders different content based on the returned variant.
+
+At least as important as the implementation is the \textbf{complete experiment
+lifecycle}: after launch, the experiment runs for a defined period until the data team
+establishes statistical significance. If the result is positive, the winning variant is
+adopted as the default and the experiment code is cleaned up. For one of the WohnenPlus
+upsell experiments, this cleanup was my responsibility: the experiment had proven
+successful, so the upsell component was hardcoded into production, the experiment IDs
+were removed, and both unit and E2E tests were updated to reflect the new functionality.
+
+\subsubsection*{Key Takeaways}
+
+A/B testing was an entirely new concept for me. I came to understand why companies of
+this scale rarely ship features without prior data validation -- any change to
+conversion-critical touchpoints can have a significant impact on revenue. On the
+technical side, I learned how feature flag architectures work and how to cleanly manage
+the entire lifecycle of an experiment, from implementation through to cleanup.
+
+\subsection{SCHUFA and Solvency Integration}
+
+\subsubsection*{Nature and Scope}
+
+The integration of the SCHUFA and credit check feature into the MeinPlus area was the
+most substantial feature I independently delivered at ImmoScout24. It spanned
+approximately seven weeks (May to July 2024) and was the first time I made changes to
+both the frontend and the backend simultaneously -- giving me a much deeper
+understanding of how the two layers interact.
+
+For context: ImmoScout24 offers flat-hunters two types of proof of creditworthiness.
+The first is the traditional \textbf{SCHUFA report} (via the third-party provider
+BoniCheck), which delivers an instant digital certificate containing landlord-relevant
+data. The second is an in-house solution called \textbf{IS24 Solvency}, a
+creditworthiness document issued by ImmoScout itself. MieterPlus and WohnenPlus
+subscribers were already entitled to one free SCHUFA report per year. The aim of the
+feature was to offer users SCHUFA or IS24 Solvency based on their subscription tier,
+to monetise SCHUFA, and to display any existing solvency documents a user already held
+within the appropriate modal in the MeinPlus area.
+
+\subsubsection*{Technical Implementation}
+
+On the \textbf{frontend side}, I developed a new \texttt{SolvencyChoiceModal} component
+containing the core business logic: if the user holds a SCHUFA report, the SCHUFA modal
+is displayed; if they have an IS24 Solvency document, the IS24 modal is shown; if they
+have both, the IS24 modal takes precedence, as it consolidates both documents in a
+single view. I also implemented an identity section on the Rent Profile page indicating
+whether a user has verified their identity with ImmoScout.
+
+On the \textbf{backend side}, I implemented several new REST API endpoints in the
+\texttt{is24-consumerbenefits} project: a \texttt{/solvency/info} endpoint that fetches
+data from BoniCheck and forwards it to the frontend, as well as a proxy endpoint for
+IS24 Solvency. The proxy endpoint was necessary because, for authentication reasons,
+the MeinPlus frontend was not permitted to communicate directly with the IS24 Solvency
+backend -- all requests had to be routed through the \texttt{is24-consumerbenefits}
+backend as an intermediary.
+
+\subsubsection*{Challenges}
+
+One of the central challenges was the concept of the proxy endpoint: I had not worked
+with this pattern before and first had to understand why such a detour was necessary at
+all. The \texttt{is24-consumerbenefits} backend already contained an existing example
+that used Spring's \texttt{RestTemplate} for outbound HTTP requests. I analysed this
+pattern, researched how it worked, and then applied it to my own use case. This
+approach -- using existing solutions in the codebase as a reference -- proved to be
+highly effective for most tasks.
+
+\subsubsection*{Key Takeaways}
+
+This feature was the turning point of my time at ImmoScout24. For the first time, I
+implemented a complete feature from the database query in the backend, through the API
+layer, to the presentation in the frontend. I came to understand how frontend and
+backend communicate via REST APIs, why proxy endpoints are useful in distributed
+systems, and how to set up a Spring Boot application locally for development.
+
+\subsection{Feature Flags and Coordinated Multi-Repository Rollout}
+
+\subsubsection*{Nature and Scope}
+
+Feature flags were a central tool in the team's day-to-day development. The idea is
+straightforward: new functionality is not rolled out to all users immediately, but
+instead hidden behind a flag. This allows code to be deployed to production without
+making the feature visible -- and in the event of an issue, it can be disabled with a
+single toggle without triggering a new deployment. Feature flag work was a recurring
+workstream throughout the second year of the internship, with individual rollouts and
+cleanup tasks spread across September 2024 to June 2025.
+
+\subsubsection*{Technical Implementation}
+
+At ImmoScout24, three different mechanisms existed for feature flags, depending on the
+use case:
+
+\begin{enumerate}
+  \item \textbf{LocalStorage Overrides (Frontend):} For local development and testing
+    in the sandbox environment, developers could manually enable specific features via
+    the browser's LocalStorage without affecting end users.
+
+  \item \textbf{Database-backed Feature Switches (Backend):} The
+    \texttt{is24-consumerbenefits} backend maintains a dedicated database table for
+    feature switches. These can be managed via the admin panel and take effect across
+    all connected repositories. I used this mechanism for the admin panel feature
+    (Section~3.5) and several rollouts.
+
+  \item \textbf{Optimizely (A/B Tests):} For controlled experiments involving user
+    traffic splitting, as described in Section~3.2.
+\end{enumerate}
+
+A particularly instructive example of a coordinated rollout was the \textbf{Plus
+rebranding}: ImmoScout24 renamed its subscription products -- \enquote{WohnenPlus}
+became \enquote{Wohnen+}, \enquote{MieterPlus} became \enquote{Mieter+}, and so on.
+What sounds like a straightforward text change was in practice a coordinated action
+across four repositories simultaneously: the MeinPlus frontend, the MyScout dashboard,
+the Quick Cart checkout frontend, and the ConsumerBenefits backend. All changes were
+implemented behind a single feature switch so that the rollout could happen
+synchronously across all repositories. I carried out these changes in several of the
+repositories mentioned.
+
+Feature flag work also involved regular \textbf{post-rollout cleanup}: once a feature
+was stable in production and a rollback was no longer needed, the feature flag code,
+conditional branches, and temporary test configuration were removed. This is important
+for keeping the codebase readable and maintainable.
+
+\subsubsection*{Key Takeaways}
+
+Working with feature flags gave me an entirely different perspective on software
+deployment. In large systems with millions of users, an immediate, uncontrolled rollout
+is often not the best approach. The different mechanisms (LocalStorage, database,
+Optimizely) showed me how varying requirements lead to different technical solutions.
+The coordinated multi-repository rollout also underlined how important clear
+communication and solid architectural documentation are in distributed systems.
+
+\subsection{Admin Panel and OpenAPI-Driven Development}
+
+\subsubsection*{Nature and Scope}
+
+Alongside the feature-oriented work, I developed and extended the internal admin panel
+iteratively in parallel with other tasks, from April 2024 through the end of the
+internship -- making it one of the longest-running workstreams overall. The admin panel
+(\texttt{is24-consumerbenefits-admin-frontend}) is an internal tool for the team
+itself: it enables straightforward management of feature switches and provides an
+overview of relevant KPIs. The product team also used it to view aggregated product
+data. The panel is connected to the \texttt{is24-consumerbenefits} backend and pulls
+its data directly from the backend's database.
+
+Specifically, I implemented the following features: a \textbf{feature switch management
+page} that allows feature switches to be toggled directly in the browser, as well as
+two \textbf{KPI dashboard tiles} -- one tracking the status of MagentaTV discount codes
+(how many of the available codes had already been distributed to users) and one showing
+the number of digital address changes.
+
+\subsubsection*{Technical Implementation}
+
+Particularly interesting about this project was the use of \textbf{OpenAPI-driven
+development}: all API endpoints of the \texttt{is24-consumerbenefits} backend are
+specified in a central \texttt{openapi.yaml} file. Using the
+\texttt{openapi-generator-maven-plugin}, a Java interface is automatically generated
+from this file, which the developer only needs to implement -- method signatures,
+request types, and response types are fully handled by the generator. On the frontend
+side, a type-safe TypeScript client is generated accordingly, so API interfaces do not
+need to be maintained manually.
+
+For visualising the KPI data, I used \textbf{shadcn/ui}, a component library for React
+that provides ready-made, highly customisable UI elements such as charts and tables.
+
+\subsubsection*{Key Takeaways}
+
+OpenAPI-driven development was a completely new concept for me. I found the approach
+very compelling: the API specification in \texttt{openapi.yaml} simultaneously serves
+as documentation (via Swagger UI), as a contract between frontend and backend, and as
+the basis for code generation. Changes to the API only need to be made in one place,
+and both sides are automatically kept in sync. This saves development time and reduces
+errors caused by manual synchronisation.
+
+\subsection{MagentaTV Partnership}
+
+\subsubsection*{Nature and Scope}
+
+Another task that I largely delivered independently at ImmoScout24 was the end-to-end
+integration of a partnership with Deutsche Telekom: users who purchase MieterPlus
+receive a discount code for MagentaTV -- Telekom's streaming service. The feature
+spanned approximately five months (February to August 2025) and had to be implemented
+across all three layers: frontend, backend, and admin panel.
+
+\subsubsection*{Technical Implementation}
+
+On the \textbf{frontend side}, I added a new MagentaTV tile to the MeinPlus area and
+developed the corresponding modal. The modal contains conditional logic: if the user
+has purchased MieterPlus, their personal discount code is displayed; if they do not
+yet have MieterPlus, they are shown a call to action to purchase it instead. New copy
+blocks were added to the i18n translation files and a MagentaTV banner was included
+as an image.
+
+On the \textbf{backend side}, I implemented a new API endpoint in the
+\texttt{is24-consumerbenefits} project to fetch the user-specific discount code. The
+rollout was handled via a feature switch, which allowed the integration to be tested
+internally first and then gradually enabled for users. After a two-day monitoring
+period with no issues, the switch was activated and the flag code was subsequently
+removed as part of a cleanup ticket.
+
+For the \textbf{admin panel}, I additionally implemented a new dashboard page with a
+bar chart visualising the consumption status of the MagentaTV discount codes -- showing
+how many codes were available in total and how many had already been assigned to users.
+This information was of regular interest to the product team.
+
+\subsubsection*{Key Takeaways}
+
+The MagentaTV feature was a good illustration of how, in a corporate context, a feature
+can rarely be delivered in isolation within a single repository. The need to develop and
+coordinate frontend, backend, and admin panel cohesively underscored the value of a
+clear architecture and well-defined API contracts. I also gained hands-on experience
+of how a feature switch is used for a controlled rollout in a production environment
+with real users.
+
+\subsection{Additional Responsibilities}
+
+\subsubsection*{Iterable / Embedded Messages}
+
+A shorter but interesting task was the integration of an embedded SCHUFA upsell banner
+into the Property Hub -- the listing detail page -- via the marketing automation
+platform \textbf{Iterable}. The work was completed within approximately two weeks in
+February 2025. The idea behind the feature is that the development team
+only implements a placeholder slot in the frontend, while the marketing team can
+independently insert and adjust content through the Iterable platform without any code
+changes. My task was to implement this placeholder and to provide an authentication
+endpoint in the backend required for communication with Iterable.
+
+New to me in this context was collaborating with non-technical colleagues from the
+marketing team. I had to communicate clearly about what information I needed from them
+and explain in accessible terms what I as a developer would be delivering. This kind
+of cross-functional collaboration between engineering and marketing was a valuable
+experience.
+
+\subsubsection*{AI Chatbot Integration (Ainavio / HeyImmo)}
+
+As part of integrating the AI chatbot \emph{HeyImmo} (provided by Ainavio) into the
+MeinPlus area over approximately three months (April to July 2025), I implemented frontend tracking and developed an iFrame event listener
+that responds to events emitted by the chatbot iFrame. On the backend side, I
+implemented validation logic that checks, prior to generating the iFrame URL, whether
+the user has already exhausted their monthly conversation limit. This was intended to
+prevent users from being presented with an empty chat window.
+
+\subsubsection*{Deposit Cancellation and Pair Programming}
+
+Additionally, I completed a backend task for the automatic cancellation of expiring
+payments and deposits (approximately five weeks, March to April 2025), and regularly supported colleagues through pair programming and
+code reviews.
+
+\subsection{Supervision and Degree of Autonomy}
+
+From the outset, collaboration within the team was characterised by a high degree of
+trust and personal responsibility. After an initial onboarding phase in which I
+familiarised myself with the codebase, the core processes, and the CI/CD flow, I worked
+largely independently. New tasks were typically described as Jira tickets and covered a
+broad spectrum: from small fixes to bugs requiring independent investigation, through
+to new features and technical research.
+
+Sprint planning sessions took place every two weeks alongside ad-hoc technical
+discussions, in which I was able to contribute my ideas and assessments. My direct line
+manager, the engineering manager, held regular one-to-one meetings in which I could
+discuss my learning progress, personal topics, and development goals.
+
+The team communicated primarily via Slack; for specific questions or quick alignment,
+short Zoom calls were available at any time. Daily stand-ups provided a regular
+opportunity to raise blockers and gather feedback. Before merging code into the main
+branch, a code review and user acceptance test by a team member were mandatory. Through
+these reviews, I received a great deal of constructive feedback, learned from my
+mistakes, and developed good practices.
+
+
+%% ============================================================
+\section{Connections Between Studies and Internship}
+%% ============================================================
+
+Since my internship began in November 2023 and my studies at HTW did not start until
+the winter semester 2024/25, my academic programme and practical work ran largely in
+parallel. This means that I completed most of the relevant modules not before, but
+during the internship. As a result, I encountered many theoretical concepts at the same
+time as concrete real-world applications -- which reinforced the learning effect in
+both directions.
+
+\textbf{Web Application Development} (B41, SS25) was the module with the most direct
+relevance. The understanding of React, HTTP, and the request-response model conveyed
+in the course aligned directly with my day-to-day work in the MeinPlus frontend and
+gave me a structured theoretical framework for things I had already implemented in
+practice.
+
+\textbf{Software Engineering 1 \& 2} (B32 in WS~24/25, B42 in SS25) introduced me
+to concepts such as component-based architecture, design patterns, and quality assurance
+through testing -- principles that were visible at every turn in the day-to-day project
+work, for example in the design of the reusable modal components in the MeinPlus
+frontend.
+
+From \textbf{Distributed Systems} (B43, SS25), I was familiar with the theoretical
+foundations of REST APIs and client-server architectures, which helped me understand
+the communication between frontend and backend.
+
+\textbf{Programming~3} (B31, SS25) had covered Java, which eased my entry into the
+Spring Boot backend. The module \textbf{Operating Systems and Networks} (B23, WS~24/25)
+gave me a foundational understanding of HTTP and network communication, which was
+helpful for understanding proxy endpoints and API authentication. The module
+\textbf{Project Management} (B46, SS25) conveyed theoretical concepts such as effort
+estimation and project phases, which I recognised in practice in the context of Jira
+and sprint planning -- although real-world implementation in an agile setting is
+considerably more process-driven than the theory suggests.
+
+Conversely, the practical experience enriched my studies: I encountered concrete use
+cases for theoretical concepts and developed an understanding of topics that receive
+little attention in the curriculum -- including A/B testing, feature flags, CI/CD
+pipelines, OpenAPI-driven development, and the reality of agile software development
+in large teams.
+
+
+%% ============================================================
+\section{Summary and Outlook}
+%% ============================================================
+
+My time at ImmoScout24 was an extraordinarily valuable learning experience. From a
+relatively straightforward bug fix on my first day to the delivery of end-to-end
+features spanning both frontend and backend, I underwent significant growth in both my
+technical competence and my identity as a developer.
+
+Particularly valuable was the breadth of my work: I did not only write frontend code,
+but also developed backend endpoints, worked with databases, built an admin panel,
+implemented A/B tests, and coordinated rollouts across multiple repositories. This
+breadth gave me a holistic understanding of how professional software development works
+within a large organisation -- from ticket creation to production deployment.
+
+The team treated me as a fully-fledged member from day one: I made independent
+technical decisions, presented my results, and was fully accountable for my tasks.
+This level of ownership allowed me to grow faster than would have been possible in a
+more closely supervised environment.
+
+No significant problems arose during the internship. The team had been hosting working
+students for some time, which meant that the key conditions -- contract terms, working
+hours, task allocation, and tooling -- were already well established before I joined.
+Within the team, I was treated the same as any other developer; the only practical
+difference was that a lower overall workload and less exposure to high-stakes tasks
+were expected of me, reflecting the fact that I was only present for roughly half the
+working week compared to full-time colleagues.
+
+The one notable issue was that the MacBook Air I was initially issued proved
+underpowered for the development environment. This was resolved within a week
+by replacing it with a more capable machine. This experience was representative of the
+broader working environment: whenever something was not working as it should, it was
+addressed quickly and frictionless.
+
+If I were to name one wish, it would be occasional exposure to other teams: spending a
+sprint or a joint session with a neighbouring team would have helped me better
+understand the overall product and the wider system architecture.
+
+My experience as a working student has shown me that full-stack web development in a
+product-oriented environment is a field on which I can build a long-term career. The
+combination of technical depth, product-strategic thinking, and the direct visibility
+of one's own contribution to the product I find highly motivating.
+
+
+%% ============================================================
+\input{Eigenstaendigkeitserklaerung}
 
 \end{document}

@@ -1,167 +1,65 @@
+%% HTW Title Page -- Metadata and Layout
 
-% Variablendefinition und deren Voreinstellung festlegen
-%
-
-%% Variablen
-\newboolean{@entwurfset}        \setboolean{@entwurfset}{true}
-\newboolean{@abgabeset}         \setboolean{@abgabeset}{true}
-\newboolean{@versionset}        \setboolean{@versionset}{true}
-\newboolean{@versionsdatum}      \setboolean{@versionsdatum}{true}
-
-%
-\newcommand{\version}[1]{\setboolean{@versionset}{true} 
- \renewcommand{\theversion}{#1}} 
-\newcommand{\datum}[1]{\renewcommand{\thedatum}{#1}}
-\newcommand{\autor}[1]{\renewcommand{\theautor}{#1}}
-\newcommand{\matrikelnr}[1]{\renewcommand{\thematrikelnr}{#1}}
-\newcommand{\titel}[1]{\renewcommand{\thetitel}{#1}}
-\newcommand{\untertitel}[1]{\renewcommand{\theuntertitel}{#1}}
-\newcommand{\fachbereich}[1]{\renewcommand{\thefachbereich}{#1}}
-\newcommand{\studiengang}[1]{\renewcommand{\thestudiengang}{#1}}
-\newcommand{\thesistyp}[1]{\renewcommand{\thethesistyp}{#1}}
-\newcommand{\abschluss}[1]{\renewcommand{\theabschluss}{#1}}
-\newcommand{\firstExaminer}[1]{\renewcommand{\thefirstExaminer}{#1}}
-\newcommand{\secondExaminer}[1]{\renewcommand{\thesecondExaminer}{#1}}
-\newcommand{\betreuerFeld}[1]{\renewcommand{\thebetreuerFeld}{#1}}
-
-%
-\newcommand{\theversion}{0.0}      
-\newcommand{\thedatum}{\today}
-\newcommand{\theautor}{Vorname Nachname: 0000000}
-\newcommand{\thematrikelnr}{0000000}
-\newcommand{\thetitel}{Titel der Arbeit}
-\newcommand{\theuntertitel}{}
+%% Metadata
+\newcommand{\theautor}{Felix Heinrich}
+\newcommand{\thematrikelnr}{593933}
+\newcommand{\theemail}{heinrichfelix03@gmail.com}
+\newcommand{\thestudiengang}{Applied Computer Science}
 \newcommand{\thefachbereich}{4}
-\newcommand{\thestudiengang}{B.Sc. Angewandte Informatik}
-\newcommand{\thethesistyp}{Projekt I}
-\newcommand{\theabschluss}{Bachelor of Engineering (B.Eng.)}
-\newcommand{\thefirstExaminer}{Prof. Dr. Erstgutachter}
-\newcommand{\thesecondExaminer}{Prof. Dr. Zweitgutachter}
-\newcommand{\thebetreuerFeld}{}
+\newcommand{\thethesistyp}{Internship Report}
+\newcommand{\thedatum}{31 October 2025}
+\newcommand{\thetaetigkeit}{Working Student in Full-Stack Development}
+\newcommand{\thepraktikumszeitraum}{15 November 2023 -- 31 October 2025}
+\newcommand{\thepraktikumsdauer}{approx. 24 months}
+\newcommand{\thepraktikumsbetrieb}{Immobilien Scout GmbH (ImmoScout24)}
+\newcommand{\thepraktikumsort}{Invalidenstraße 65, 10557 Berlin}
+\newcommand{\theansprechpartner}{Eva Chong}
+\newcommand{\theansprechpartnerEmail}{eva.chong@scout24.com}
 
-\betreuerFeld{
-  \begin{tabular}{llr}
-    Erstgutachten: & \thefirstExaminer \\
-    Zweitgutachten: & \thesecondExaminer \\
-  \end{tabular}
+%% Title page layout
+\newcommand{\htwTitelSeite}{%
+  \thispagestyle{empty}
+  \parindent=0pt
+  \begin{flushright}
+    \includegraphics[width=4.5cm]{pictures/htw_logo}
+  \end{flushright}
+  \vspace*{\stretch{1}}
+  \begin{center}
+    {\Huge\textbf{Internship Report}}\\[1.5ex]
+    {\large\textbf{Bachelor's Programme in \thestudiengang{} -- Department \thefachbereich}}\\[0.5ex]
+    {\large\textbf{HTW Berlin}}
+  \end{center}
+  \vspace*{\stretch{1}}
+  \begin{center}
+    {\large\textbf{\theautor}}\\[0.5ex]
+    \ifx\thematrikelnr\empty\else Student ID: \thematrikelnr\\[0.5ex]\fi
+    \ifx\theemail\empty\else Email: \theemail\fi
+  \end{center}
+  \vspace*{\stretch{1}}
+  \begin{center}
+    \thetaetigkeit\\[0.5ex]
+    \thepraktikumszeitraum{} (\thepraktikumsdauer)
+  \end{center}
+  \vspace*{\stretch{1}}
+  \begin{center}
+    at\\[0.5ex]
+    \thepraktikumsbetrieb\\[0.3ex]
+    \thepraktikumsort
+  \end{center}
+  \vspace*{\stretch{0.5}}
+  \begin{center}
+    \ifx\theansprechpartner\empty\else
+      Supervisor: \theansprechpartner\\[0.3ex]
+      \ifx\theansprechpartnerEmail\empty\else\theansprechpartnerEmail\fi
+    \fi
+  \end{center}
+  \vspace*{\stretch{1}}
+  \noindent Berlin, \thedatum
+
+  \vspace{2cm}
+
+  \noindent\rule{7cm}{0.4pt}\hfill\rule{7cm}{0.4pt}\\[0.3ex]
+  \noindent Intern \hfill Supervisor
 }
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \renewcommand{\maketitle}{\htwTitelSeite}
-
-%% Optionen
-
-\DeclareOption{entwurf}
-    {
-      \setboolean{@entwurfset}{true}
-      \setboolean{@abgabeset}{false}
-    }
-
-\DeclareOption{abgabe}
-    {
-      \setboolean{@entwurfset}{false}
-      \setboolean{@abgabeset}{true}
-    }
-
-
-
-%% Setzen des defaults und verarbeiten
-\ExecuteOptions{abgabe}     %TODO für Abgabe auf abgabe setzen
-\ProcessOptions 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\newcommand{\hslogo}{pictures/Logo_HTW_Berlin.pdf}
-%\newcommand{\hslogoscaled}[1]{{\mbox{\includegraphics[width=#1]\hslogo}}}
-
-\newcommand{\hsfont}{}%    {\fontfamily{phv}\fontseries{m}\fontshape{n}\selectfont}
-\newcommand{\hsheadfont}{}%{\fontfamily{phv}\fontseries{b}\fontshape{n}\selectfont}
-
-\newcommand{\htwTitelSeite}
-    {
-      \thispagestyle{empty}
-      \parindent=0pt
-      \begin{minipage}[b]{0.65\textwidth}
-       
-        \ifthenelse{\boolean{@entwurfset}}
-            {
-              \begin{hsfont}
-                \begin{tiny}
-                  \raggedright
-                  % Versionsnummer, wenn gesetzt
-                  \ifthenelse{\boolean{@versionset}}
-                       {Version \theversion\\}
-                       {}
-                       % Datum der letzten Änderung, falls gewünscht
-	               \ifthenelse{\boolean{@versionsdatum}}
-                       {letzte Änderung: \today \\}
-		       {}
-                \end{tiny}
-              \end{hsfont}
-            }
-            {              
-              % leer
-              ~\hfill~
-            }
-      \end{minipage}
-      
-      \begin{minipage}[b]{0.35\textwidth}
-      \vskip -2em
-      \hfill  %\hslogoscaled{\textwidth}
-%      \Ifpdfoutput{
-%                  \message{PDF Output}
-                  \mbox{\includegraphics[width=\textwidth]{pictures/Logo_HTW_Berlin}}
-%                  }{
-%                 \mbox{\includegraphics[width=\textwidth]{pictures/Logo_HTW_Berlin.eps}}
-%                  \message{Kein PDF Output}
-%                  }
-      \end{minipage}
-
-      \textcolor{HKS66}{\rule{\linewidth}{.4mm}}
-      \vspace*{\stretch{1}}
-      \begin{center}
-        \begin{hsheadfont}
-          \textcolor{\headcolor}{\LARGE \textbf{\thetitel}}
-        \end{hsheadfont}
-      \end{center}
-      \vspace*{\stretch{0.5}}
-      %
-      \begin{hsheadfont}
-        \begin{center}
-          \textbf{\Large{\thethesistyp}}
-        \end{center}
-      \end{hsheadfont}
-      \vspace*{\stretch{0.5}}
-      %
-      \begin{center}
-        \begin{hsfont}
-          von\\[2ex]
-          {\textbf{\large\theautor}}\\[2ex]
-          %Matrikelnummer: \thematrikelnr\\[2ex]
-          Fachbereich \thefachbereich\\
-          der Hochschule für Technik und Wirtschaft Berlin\\[2ex]
-          
-          im Studiengang\\
-          \textbf{\thestudiengang}
-        \end{hsfont}
-      \end{center}
-     
-      \vspace*{\stretch{1}}
-       \begin{center}
-         Tag der Abgabe: \thedatum 
-       \end{center}
-         
-      \vspace*{\stretch{1}}
-      
-      %\thebetreuerFeld
-      
-      %
-      \vspace*{\stretch{2}}
-
-      \textcolor{HKS66}{\rule{\linewidth}{0.4mm}}\\[1.5ex]
-       \begin{hsheadfont}
-         % leer
-         ~\hfill~
-       \end{hsheadfont}
-    }
-    
